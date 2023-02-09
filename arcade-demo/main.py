@@ -87,7 +87,7 @@ class GameView(arcade.View):
         self.player_sprite.center_y = 50
         self.player_list.append(self.player_sprite)
 
-        for i in range(200):
+        for i in range(2000):
 
             # Create the coin instance
             coin = arcade.Sprite(":resources:images/items/coinGold.png", SPRITE_SCALING / 3)
